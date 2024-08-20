@@ -278,7 +278,7 @@ public class Instruction {
 			return pattern;
 		}
 		if (match != null) {
-			return this.pattern = Pattern.compile(match, matchFlags);
+			return this.pattern = Pattern.compile(Pattern.quote(match), matchFlags);
 		}
 		return this.pattern = ANY;
 	}
