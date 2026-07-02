@@ -279,7 +279,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages (>= 229)
   jekyll-seo-tag
-  webrick (~> 1.8)
+  webrick (~> 1.8, >= 1.8.2)
 
 BUNDLED WITH
    2.3.27
